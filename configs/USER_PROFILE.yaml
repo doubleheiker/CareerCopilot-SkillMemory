@@ -1,0 +1,17 @@
+profile_id: default-user
+locale: zh-CN
+target_roles:
+  - Agent engineer
+preferred_cities:
+  - Beijing
+internship_types:
+  - summer intern
+  - daily intern
+skill_keywords:
+  - LLM watermarking
+  - agent memory
+  - RAG
+disliked_traits:
+  - low output
+notes:
+  - 单用户 MVP 默认画像

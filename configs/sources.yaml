@@ -1,0 +1,20 @@
+default_locale: zh-CN
+sources:
+  dewu:
+    kind: company_career_page
+    enabled: true
+    priority: p0
+    start_urls:
+      - https://careers.dewu.com/index/position/list?keywords=&category=&location=&project=&type=&job_hot_flag=&current=1&limit=10&functionCategory=&tag=
+    fixture_path: tests/fixtures/dewu_positions.json
+    notes:
+      - 首个公司官网适配器
+  boss_zhipin:
+    kind: job_board
+    enabled: true
+    priority: p0
+    start_urls:
+      - https://www.zhipin.com/beijing/?seoRefer=index
+    fixture_path: tests/fixtures/boss_zhipin_jobs.html
+    notes:
+      - 首个招聘平台适配器

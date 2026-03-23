@@ -1,0 +1,26 @@
+{
+  "code": 0,
+  "message": "success",
+  "data": {
+    "records": [
+      {
+        "positionId": "9001",
+        "positionName": "Agent Engineer Intern",
+        "cityName": "Beijing",
+        "departmentName": "AI Platform"
+      },
+      {
+        "positionId": "9002",
+        "positionName": "RAG Algorithm Intern",
+        "cityName": "Beijing",
+        "departmentName": "Search Intelligence"
+      },
+      {
+        "positionId": "9003",
+        "positionName": "Memory Systems Intern",
+        "cityName": "Shanghai",
+        "departmentName": "LLM Infra"
+      }
+    ]
+  }
+}
